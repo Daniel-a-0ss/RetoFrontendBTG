@@ -1,0 +1,133 @@
+/* ── Base de Tailwind ───────────────────────────────────────────────────────── */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Reset base ─────────────────────────────────────────────────────────────── */
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  }
+
+  body {
+    background: transparent;
+  }
+
+  /* Estilo de scrollbar para tema claro */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: #f1f5f9; }
+  ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+  /* Oculta las flechas del input numérico */
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+  input[type='number'] { -moz-appearance: textfield; }
+}
+
+/* ── Clases reutilizables de componentes ───────────────────────────────────── */
+@layer components {
+
+  /* Tarjetas */
+  .card {
+    @apply bg-white border border-surface-border rounded-2xl p-6 shadow-card backdrop-blur-sm hover:shadow-card-hover transition-shadow duration-200;
+  }
+  .card-glow {
+    @apply shadow-glow border-primary-200 hover:shadow-glow-hover;
+  }
+
+  /* Navegación */
+  .nav-link {
+    @apply relative flex items-center gap-2 px-4 py-2.5 rounded-xl text-slate-600
+           hover:text-primary-700 hover:bg-gradient-to-r hover:from-primary-50 hover:to-primary-100/50
+           transition-all duration-300 ease-out
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white
+           before:absolute before:inset-0 before:rounded-xl before:bg-gradient-to-r before:from-primary-500/0 before:to-primary-600/0
+           before:transition-opacity before:duration-300 before:opacity-0 hover:before:opacity-10;
+  }
+
+  .nav-link-active {
+    @apply text-primary-700 bg-gradient-to-r from-primary-100 to-primary-50 border border-primary-200/60 shadow-sm
+           before:absolute before:inset-0 before:rounded-xl before:bg-gradient-to-r before:from-primary-500/5 before:to-primary-600/10
+           before:opacity-100 hover:from-primary-200 hover:to-primary-100 hover:border-primary-300/60;
+  }
+
+  .nav-link-active:hover {
+    @apply shadow-md transform scale-[1.02];
+  }
+
+  /* Botones */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2
+           bg-primary-600 hover:bg-primary-700 active:bg-primary-800
+           text-white font-semibold rounded-xl shadow-sm
+           transition-all duration-200
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2
+           bg-white hover:bg-secondary-50 border border-secondary-300
+           text-secondary-700 font-semibold rounded-xl shadow-sm
+           transition-all duration-200
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2
+           bg-red-50 hover:bg-red-100 border border-red-200
+           text-red-700 font-semibold rounded-xl shadow-sm
+           transition-all duration-200
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  /* Campos de formulario */
+  .field-label {
+    @apply block text-sm font-semibold text-secondary-700 uppercase tracking-wide;
+  }
+  .field-input {
+    @apply w-full bg-white border border-secondary-300 rounded-xl
+           px-3 py-2.5 text-sm text-secondary-900 placeholder-secondary-500
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500
+           focus-visible:ring-primary-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white
+           transition-all duration-200;
+  }
+  .field-error {
+    @apply text-sm text-red-600 flex items-center gap-1;
+  }
+
+  /* Etiquetas */
+  .badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs font-semibold;
+  }
+  .badge-fpv {
+    @apply bg-primary-100 text-primary-800 border border-primary-200;
+  }
+  .badge-fic {
+    @apply bg-accent-100 text-accent-800 border border-accent-200;
+  }
+  .badge-risk-low  { @apply bg-success-100 text-success-800 border border-success-200; }
+  .badge-risk-mid  { @apply bg-accent-100   text-accent-800   border border-accent-200;   }
+  .badge-risk-high { @apply bg-red-100     text-red-800     border border-red-200;     }
+
+  /* Indicadores KPI */
+  .kpi-label {
+    @apply text-sm font-semibold text-secondary-600 uppercase tracking-wide;
+  }
+  .kpi-value {
+    @apply text-3xl font-bold text-secondary-900 leading-tight;
+  }
+  .kpi-sub {
+    @apply text-sm font-medium text-secondary-500;
+  }
+
+  /* Spinner */
+  .spinner-sm {
+    @apply inline-block w-3.5 h-3.5 border-2 border-current border-t-transparent
+           rounded-full animate-spin;
+  }
+}

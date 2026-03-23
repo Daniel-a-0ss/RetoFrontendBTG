@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1773300132398" clover="3.2.0">
+  <project timestamp="1773300132398" name="All files">
+    <metrics statements="153" coveredstatements="136" conditionals="22" coveredconditionals="14" methods="73" coveredmethods="62" elements="248" coveredelements="212" complexity="0" loc="153" ncloc="153" packages="8" files="9" classes="9"/>
+    <package name="core.pipes">
+      <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="cop-currency.pipe.ts" path="C:\Users\mauricio.rios\Documents\Prueba Front\src\app\core\pipes\cop-currency.pipe.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="24" type="cond" truecount="3" falsecount="1"/>
+        <line num="16" count="24" type="stmt"/>
+        <line num="23" count="24" type="cond" truecount="1" falsecount="1"/>
+      </file>
+    </package>
+    <package name="core.services">
+      <metrics statements="50" coveredstatements="45" conditionals="4" coveredconditionals="4" methods="31" coveredmethods="26"/>
+      <file name="fund.service.ts" path="C:\Users\mauricio.rios\Documents\Prueba Front\src\app\core\services\fund.service.ts">
+        <metrics statements="40" coveredstatements="40" conditionals="4" coveredconditionals="4" methods="26" coveredmethods="26"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="76" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="94" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="99" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="108" count="2" type="stmt"/>
+      </file>
+      <file name="mock-funds-api.service.ts" path="C:\Users\mauricio.rios\Documents\Prueba Front\src\app\core\services\mock-funds-api.service.ts">
+        <metrics statements="10" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.dashboard">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="dashboard.component.ts" path="C:\Users\mauricio.rios\Documents\Prueba Front\src\app\features\dashboard\dashboard.component.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="95" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.fund-list">
+      <metrics statements="27" coveredstatements="22" conditionals="2" coveredconditionals="1" methods="12" coveredmethods="8"/>
+      <file name="fund-list.component.ts" path="C:\Users\mauricio.rios\Documents\Prueba Front\src\app\features\fund-list\fund-list.component.ts">
+        <metrics statements="27" coveredstatements="22" conditionals="2" coveredconditionals="1" methods="12" coveredmethods="8"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="173" count="1" type="stmt"/>
+        <line num="174" count="2" type="stmt"/>
+        <line num="175" count="2" type="stmt"/>
+        <line num="179" count="2" type="stmt"/>
+        <line num="180" count="2" type="stmt"/>
+        <line num="181" count="2" type="stmt"/>
+        <line num="182" count="2" type="stmt"/>
+        <line num="185" count="2" type="stmt"/>
+        <line num="186" count="2" type="stmt"/>
+        <line num="187" count="2" type="stmt"/>
+        <line num="192" count="0" type="stmt"/>
+        <line num="196" count="0" type="stmt"/>
+        <line num="200" count="0" type="stmt"/>
+        <line num="205" count="24" type="stmt"/>
+        <line num="209" count="1" type="stmt"/>
+        <line num="210" count="1" type="stmt"/>
+        <line num="212" count="1" type="stmt"/>
+        <line num="213" count="1" type="stmt"/>
+        <line num="216" count="0" type="stmt"/>
+        <line num="217" count="0" type="stmt"/>
+        <line num="223" count="12" type="stmt"/>
+        <line num="228" count="12" type="cond" truecount="1" falsecount="1"/>
+      </file>
+    </package>
+    <package name="features.subscription-modal">
+      <metrics statements="33" coveredstatements="26" conditionals="3" coveredconditionals="0" methods="8" coveredmethods="6"/>
+      <file name="subscription-modal.component.ts" path="C:\Users\mauricio.rios\Documents\Prueba Front\src\app\features\subscription-modal\subscription-modal.component.ts">
+        <metrics statements="33" coveredstatements="26" conditionals="3" coveredconditionals="0" methods="8" coveredmethods="6"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="179" count="2" type="stmt"/>
+        <line num="181" count="2" type="stmt"/>
+        <line num="182" count="2" type="stmt"/>
+        <line num="183" count="2" type="stmt"/>
+        <line num="185" count="2" type="stmt"/>
+        <line num="186" count="2" type="stmt"/>
+        <line num="187" count="2" type="stmt"/>
+        <line num="189" count="2" type="stmt"/>
+        <line num="193" count="2" type="stmt"/>
+        <line num="199" count="2" type="stmt"/>
+        <line num="213" count="64" type="stmt"/>
+        <line num="217" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="218" count="0" type="stmt"/>
+        <line num="219" count="0" type="stmt"/>
+        <line num="222" count="1" type="stmt"/>
+        <line num="227" count="1" type="stmt"/>
+        <line num="229" count="1" type="stmt"/>
+        <line num="231" count="1" type="stmt"/>
+        <line num="232" count="1" type="stmt"/>
+        <line num="237" count="1" type="stmt"/>
+        <line num="240" count="0" type="stmt"/>
+        <line num="241" count="0" type="stmt"/>
+        <line num="247" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="248" count="0" type="stmt"/>
+        <line num="253" count="8" type="stmt"/>
+        <line num="254" count="8" type="cond" truecount="0" falsecount="1"/>
+        <line num="255" count="0" type="stmt"/>
+        <line num="257" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.transaction-history">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="transaction-history.component.ts" path="C:\Users\mauricio.rios\Documents\Prueba Front\src\app\features\transaction-history\transaction-history.component.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="119" count="1" type="stmt"/>
+        <line num="120" count="2" type="stmt"/>
+        <line num="123" count="8" type="stmt"/>
+        <line num="127" count="2" type="stmt"/>
+        <line num="128" count="4" type="stmt"/>
+        <line num="129" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.components.toast">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="toast.component.ts" path="C:\Users\mauricio.rios\Documents\Prueba Front\src\app\shared\components\toast\toast.component.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="38" count="8" type="stmt"/>
+        <line num="39" count="8" type="stmt"/>
+        <line num="45" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="49" count="8" type="stmt"/>
+        <line num="55" count="8" type="cond" truecount="1" falsecount="1"/>
+      </file>
+    </package>
+    <package name="shared.services">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="11"/>
+      <file name="toast.service.ts" path="C:\Users\mauricio.rios\Documents\Prueba Front\src\app\shared\services\toast.service.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="11"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
