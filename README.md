@@ -1,53 +1,53 @@
-# BTG Funds Web Application
+# Aplicación Web BTG Funds
 
-This is a modern web application built with Angular, designed for managing FPV/FIC funds as part of a front-end technical test.
+Esta es una aplicación web moderna construida con Angular, destinada a la gestión de fondos FPV/FIC como parte de una prueba técnica de front-end.
 
-The solution enables a single user to browse available funds, subscribe with balance and minimum amount validation, cancel active participations, and review transaction history in a clear and responsive interface.
+La solución permite a un único usuario explorar el catálogo de fondos disponibles, suscribirse con validaciones de saldo y monto mínimo, cancelar participaciones activas y revisar el historial de transacciones en una interfaz clara y responsiva.
 
-## Key Features
+## Características Principales
 
-- Browse and view available funds catalog.
-- Subscribe to funds with minimum amount and balance checks.
-- Cancel active participations with refund to main balance.
-- Chronological transaction history of subscriptions and cancellations.
-- Choose notification method upon subscription: email or SMS.
-- Visual feedback including skeletons, loading states, and toast notifications.
+- Explorar y visualizar el catálogo de fondos disponibles.
+- Suscribirse a fondos con verificaciones de monto mínimo y saldo.
+- Cancelar participaciones activas con reembolso al saldo principal.
+- Historial cronológico de transacciones de suscripciones y cancelaciones.
+- Elegir método de notificación al suscribirse: correo electrónico o SMS.
+- Retroalimentación visual incluyendo esqueletos, estados de carga y notificaciones emergentes.
 
-## Technology Stack
+## Tecnologías Utilizadas
 
-- Angular 18 using standalone components.
-- TypeScript for type safety.
-- Angular Router for navigation.
-- Signals for local application state management.
-- RxJS for asynchronous operations simulation.
-- Tailwind CSS for utility-first styling and responsive layouts.
+- Angular 18 utilizando componentes independientes.
+- TypeScript para seguridad de tipos.
+- Angular Router para navegación.
+- Señales para gestión de estado local de la aplicación.
+- RxJS para simulación de operaciones asíncronas.
+- Tailwind CSS para estilos utilitarios y diseños responsivos.
 
-## Prerequisites
+## Requisitos Previos
 
-- Node.js version 18 or higher.
-- npm version 9 or higher.
+- Node.js versión 18 o superior.
+- npm versión 9 o superior.
 
-## Getting Started
+## Cómo Empezar
 
-1. Clone the repository.
-2. Install dependencies.
-3. Start the development server.
+1. Clona el repositorio.
+2. Instala las dependencias.
+3. Inicia el servidor de desarrollo.
 
 ```bash
 npm install
 npm start
 ```
 
-The application will be available at the URL provided by Angular CLI, typically:
+La aplicación estará disponible en la URL proporcionada por Angular CLI, generalmente:
 
 ```bash
 http://localhost:4200/
 ```
 
-## Available Scripts
+## Scripts Disponibles
 
 ```bash
-npm start   # Start development server
+npm start   # Iniciar servidor de desarrollo
 ```
 npm run build   # build de producción
 npm run watch   # build en modo watch
